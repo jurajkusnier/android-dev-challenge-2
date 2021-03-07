@@ -59,6 +59,7 @@ import com.example.androiddevchallenge.ui.theme.almostWhite
 import com.example.androiddevchallenge.ui.theme.lightBackground
 import com.example.androiddevchallenge.ui.theme.orange
 import com.example.androiddevchallenge.ui.theme.red
+import com.example.androiddevchallenge.ui.theme.whiteWithOpacity
 import com.example.androiddevchallenge.ui.theme.whiteWithOpacity2
 
 @ExperimentalAnimationApi
@@ -310,7 +311,7 @@ fun PlayPauseButton(state: TimerState, playPause: () -> Unit) {
                     is TimerState.TimerSetup -> "START"
                 },
                 fontSize = 20.sp,
-                color = if (state !is TimerState.TimerRunning) whiteWithOpacity2 else red
+                color = if (state !is TimerState.TimerRunning) whiteWithOpacity else red
             )
         }
     }
