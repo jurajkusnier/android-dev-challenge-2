@@ -13,14 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge
 
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 
-val whiteWithOpacity = Color(0xCCFFFFFF)
-val whiteWithOpacity2 = Color(0x99FFFFFF)
-val darkBackground = Color(0xFF2F314A)
-val lightBackground = Color(0xFF3E405A)
-val red = Color(0xFFDA3D73)
-val orange = Color(0xFFE7626E)
-val almostWhite = Color(0xFFE2E4F7)
+val BOX_SIZE = 88.dp
